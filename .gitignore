@@ -1,0 +1,65 @@
+# --- Entornos ---
+venv/
+.env
+*.env
+
+# --- Archivos sensibles ---
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.cer
+*.crt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Logs ---
+*.log
+logs/
+debug.log
+
+# --- Archivos temporales ---
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+
+# --- Compilados ---
+dist/
+build/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.iml
+
+# --- Cachés ---
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage/
+htmlcov/
+
+# --- Salidas de notebooks ---
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# --- Outputs del proyecto ---
+outputs/
+research_output.txt
+*.txt
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
