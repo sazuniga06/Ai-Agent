@@ -58,7 +58,6 @@ htmlcov/
 # --- Outputs del proyecto ---
 outputs/
 research_output.txt
-*.txt
 
 # --- Sistema operativo ---
 .DS_Store
